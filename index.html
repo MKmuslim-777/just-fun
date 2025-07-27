@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Developer Profile</title>
+    <link rel="stylesheet" href="./asset/style/style.css">
 </head>
 <body>
-    
+    <div class="card-container">
+        <div class="iconic-card" id="iconicCard">
+            <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=200&q=80" 
+                 alt="Web Developer" class="profile-img">
+            <h2>Web Developer</h2>
+            <p>Click to watch my intro video</p>
+        </div>
+    </div>
+
+    <div class="fullscreen-video" id="fullscreenVideo">
+        <video controls autoplay id="videoPlayer">
+            <source src="./asset/video/ghost sound - Horror sound effect - Horror sounds - Horror voice.mp4" type="video/mp4">
+            Your browser doesn't support videos.
+        </video>
+        <button class="close-btn" id="closeBtn">✕</button>
+    </div>
+
+    <script src="./asset/script/script.js"></script>
 </body>
 </html>
